@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#chart {
+  border: 1px solid black;
+  height: 600px;
+  width: 800px;
+}
+
+.bar {
+  background: steelblue;
+  border: 1px solid #ffffff;
+  color: white;
+  font-size: 12px;
+  padding: 1px;
+}
